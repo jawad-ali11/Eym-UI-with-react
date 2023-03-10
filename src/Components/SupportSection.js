@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Input } from 'postcss';
 import visa from "../../public/Assets/visa.png"
 import Master from "../../public/Assets/Master.png"
-export default function LandingpageBottom() {
+export default function SupportSection() {
   return (
     <div className='bg-[#f7f1e8] lg:pt-[30px] pt-[15px] pb-5'>
         <div className='flex lg:flex-row flex-col   gap-[30px]'>

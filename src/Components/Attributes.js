@@ -25,7 +25,7 @@ export default function Attributes() {
             </div>
         </div>
         
-        <div className='lg:w-[50%] hidden lg:block  justify-center flex items-center '>
+        <div className='lg:w-[50%] hidden lg:block  justify-center lg:flex items-center '>
              <Image className='w-[88%] h-[88%]' src={Sleeping} alt="div" />
         </div>
     </div>
