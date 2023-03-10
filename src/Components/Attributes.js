@@ -2,10 +2,10 @@ import React from 'react'
 import Image from "next/image";
 import Sleeping from "../../public/Assets/Sleeping.png"
 import Hero2 from "../../public/Assets/Hero2.png"
-import VOGUEsvg from "../../public/Assets/VOGUEsvg.png"
-import Grazia from "../../public/Assets/Grazia.png"
-import Ellesvg from "../../public/Assets/Ellesvg.png"
-import Bazaar from "../../public/Assets/Bazaar.svg" 
+import Logo1 from "../../public/Assets/Logo1.png"
+import Logo2 from "../../public/Assets/Logo2.png"
+import Logo3 from "../../public/Assets/Logo3.png"
+import Logo4 from "../../public/Assets/Logo4.svg" 
 
 export default function Attributes() {
   return (
@@ -25,7 +25,7 @@ export default function Attributes() {
             </div>
         </div>
         
-        <div className='lg:w-[50%] hidden lg:block  justify-center lg:flex items-center '>
+        <div className='lg:w-[50%] hidden lg:block  justify-center flex items-center '>
              <Image className='w-[88%] h-[88%]' src={Sleeping} alt="div" />
         </div>
     </div>
@@ -40,10 +40,10 @@ export default function Attributes() {
                    patchouli – without the compromising your <br className='hidden  md:block'></br>
                     immediate environment."</p>
                     <div className='flex gap-8 ml-1'>
-                      <Image className='w-[80px] h-[22px]' src={VOGUEsvg} alt="div" />
-                      <Image className='w-[80px] h-[20px] opacity-40 ' src={Grazia} alt="div" />
-                      <Image className='w-[80px] h-[20px] opacity-40' src={Ellesvg} alt="div" />
-                      <Image className='w-[80px] h-[20px] opacity-40' src={Bazaar} alt="div" />  
+                      <Image className='w-[80px] h-[22px]' src={Logo1} alt="div" />
+                      <Image className='w-[80px] h-[20px] opacity-40 ' src={Logo2} alt="div" />
+                      <Image className='w-[80px] h-[20px] opacity-40' src={Logo3} alt="div" />
+                      <Image className='w-[80px] h-[20px] opacity-40' src={Logo4} alt="div" />  
                     </div>
             </div>
         </div>
