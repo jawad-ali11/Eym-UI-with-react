@@ -1,12 +1,15 @@
 import React from 'react'
+
 import Image from "next/Image";
 import logo from "../../public/Assets/logo.png"
+import { useState } from 'react';
 export default function NavBar() {
   return (
     <div>
       
       <div className='  bg-[#F7F1E8] flex justify-between items-center pt-4 pb-4 px-5 border-black border-b-[1px]'>
           <div className=''>
+          
           <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 96 960 960" width="30"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
           </div>
           <div>

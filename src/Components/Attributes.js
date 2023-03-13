@@ -15,14 +15,14 @@ export default function Attributes() {
           <p className="font-[400] text-[17px] lg:h-[85px] h-[60px] pl-[1.6rem]">
             Find the right scent for your mood ↓
           </p>
-          <div className="font-[400] text-[33px] leading-[40px] pl-[1.6rem] group cursor-pointer hover:opacity-60  ">
-            <p className="hover:opacity-100 ">Feel Sleepy</p>
-            <p>Feel Joyful</p>
-            <p>Feel Relaxed</p>
-            <p>Feel Uplifted</p>
-            <p>Feel Grounded</p>
-            <p>Feel Zen</p>
-            <p>Feel Blissful</p>
+          <div className="font-[400] text-[33px] leading-[40px] pl-[1.6rem]  cursor-pointer transition-all ease-in duration-300 hover:text-[grey]  ">
+            <p className="hover:text-black">Feel Sleepy</p>
+            <p className="hover:text-black">Feel Joyful</p>
+            <p className="hover:text-black">Feel Relaxed</p>
+            <p className="hover:text-black">Feel Uplifted</p>
+            <p className="hover:text-black">Feel Grounded</p>
+            <p className="hover:text-black">Feel Zen</p>
+            <p className="hover:text-black">Feel Blissful</p>
           </div>
         </div>
 
